@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/bitmap"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/bitmap"
+        android:supportsRtl="true"
+        tools:targetApi="31">
+
+        <meta-data
+            android:name="xposedicon"
+            android:resource="@mipmap/bitmap" />
+        <meta-data
+            android:name="xposedmodule"
+            android:value="true" />
+        <meta-data
+            android:name="xposeddescription"
+            android:value="首次使用需要先进入存档，然后返回主菜单后再次进入存档即可成功修改钱，后每次退出存档金钱都会恢复为9999999" />
+
+        <meta-data
+            android:name="xposedminversion"
+            android:value="54" /> <!-- 模块作用域 -->
+        <meta-data
+            android:name="xposedscope"
+            android:resource="@array/xposedscope" />
+
+    </application>
+
+</manifest>

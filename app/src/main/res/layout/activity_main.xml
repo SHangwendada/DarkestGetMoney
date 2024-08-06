@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/text_hook1_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hook 1 Description"
+        android:padding="8dp" />
+
+    <Switch
+        android:id="@+id/switch_hook1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="修改Save的钱" />
+
+    <TextView
+        android:id="@+id/text_hook2_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hook 2 Description"
+        android:padding="8dp"
+        android:layout_marginTop="16dp" />
+
+    <Switch
+        android:id="@+id/switch_hook2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="修改getGold的钱" />
+</LinearLayout>
